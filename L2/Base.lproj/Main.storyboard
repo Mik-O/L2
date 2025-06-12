@@ -12,7 +12,7 @@
         <!--Color view-->
         <scene sceneID="Yg5-c8-WoC">
             <objects>
-                <viewController id="JLs-hU-Spp" customClass="MainViewController" sceneMemberID="viewController">
+                <viewController id="JLs-hU-Spp" customClass="MainViewController" customModule="L2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0cc-Cw-Lfu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,7 +23,7 @@
                         <barButtonItem key="rightBarButtonItem" id="qYp-gI-YdC">
                             <imageReference key="image" image="square.and.pencil" catalog="system" symbolScale="large" variableValue="1"/>
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="wD0-ao-Kub"/>
+                                <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="ib7-zm-5w3"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -226,7 +226,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray4Color">
-            <color red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

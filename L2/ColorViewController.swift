@@ -25,7 +25,7 @@ class ColorViewController: UIViewController {
     
     //MARK: - Public Properties
     var delegate: ColorViewControllerDelegate!
-    var mainViewColor: UIColor!
+    var mainViewColor: UIColor = .white
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +37,7 @@ class ColorViewController: UIViewController {
         
         colorView.backgroundColor = mainViewColor
         
-        //setSliders()
+        setSliders()
         setValue(for: redLabel, greenLabel, blueLabel)
         setValue(for: redTextField, greenTextField, blueTextField)
         addDoneButton(to: redTextField, greenTextField, blueTextField)
@@ -108,6 +108,7 @@ class ColorViewController: UIViewController {
             redSlider.value = Float(ciColor.red)
             greenSlider.value = Float(ciColor.green)
             blueSlider.value = Float(ciColor.blue)
+            
         }
         
         private func string(from slider: UISlider) -> String {
